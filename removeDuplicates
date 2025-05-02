@@ -1,1 +1,9 @@
-
+def removeDuplicate(li):
+    l1 = []
+    for x in li:
+        if x not in l1:
+            l1.append(x)
+    print(l1)
+    
+li = list(map(int,input("Enter the elements of list:").split()))
+removeDuplicate(li)

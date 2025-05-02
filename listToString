@@ -1,0 +1,8 @@
+def listToString(l):
+    string = ''
+    for i in l:
+        string+=str(i)
+    return string
+
+l = [1,2,3,4,5]
+print(listToString(l))
