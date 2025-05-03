@@ -1,0 +1,7 @@
+def alternativeElement(list1):
+    for i in range(1,len(list1)+1,2):
+        print(list1[i],end = " ")
+    
+    
+list1 = list(map(int,input("Enter elements:").split()))
+alternativeElement(list1)
