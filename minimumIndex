@@ -1,0 +1,10 @@
+l = ['pizza','nuggets','hotdog','noodles','pasta','burger']
+l1 = ['burger','hotdog','noodles','pasta','nuggets','pizza']
+l2 = []
+for i in range(0,len(l)):
+    index = l1.index(l[i])
+    add = i + index
+    l2.append(add)
+print(min(l2))
+    
+    

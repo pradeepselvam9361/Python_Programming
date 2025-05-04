@@ -1,0 +1,10 @@
+l = [10,12,6,9,12,8,4]
+l1 = [14,6,19,4,7,10,11]
+l2 = []
+for i in range(0,len(l)):
+    if l[i] not in l1:
+        continue
+    else:
+        l2.append(l[i])
+print(l2)
+    
