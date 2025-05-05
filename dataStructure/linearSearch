@@ -1,0 +1,10 @@
+def linearSearch(l,target):
+    if target in l:
+        x = [l.index(i) for i in l if i == target ]
+        return x if x else "invalid"
+
+    
+l = [5,7,9,12,17]
+print(l)
+target = int(input("enter the target element:"))
+print(linearSearch(l,target))
