@@ -1,0 +1,21 @@
+# r = int(input("enter rows:"))
+# c = int(input("enter columns:"))
+# l = []
+# for i in range(r):
+#     r1 = []
+#     for j in range(c):
+#         g = int(input("enter items:"))
+#         r1.append(g)
+#     l.append(r1)
+    
+
+# for i in range(r):
+#     for j in range(c):
+#         print(l[i][j],end = ' ')
+#     print()
+
+#another method for user input
+
+r = int(input("enter elements:"))
+m = [list(map(int,input().split())) for _ in range(r)]
+print(m)

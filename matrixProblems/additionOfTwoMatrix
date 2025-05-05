@@ -1,0 +1,26 @@
+def sumOfElements(matrix1,matrix2):
+    matrix3 = []
+    for i in range(3):
+        row = []
+        for j in range(3):
+            row.append(matrix1[i][j] + matrix2[i][j])
+        matrix3.append(row)
+        
+    for i in matrix3:
+        # for item in i:
+        #     print(item,end = ' ')
+        # print()
+        print(i)
+
+
+matrix1 = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+    ]
+matrix2 = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+    ]
+sumOfElements(matrix1,matrix2)
