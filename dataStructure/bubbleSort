@@ -1,0 +1,11 @@
+def bubbleSort(l):
+    n = len(l)
+    while n > 0:
+        for x in range(n-1):
+            if l[x] > l[x+1]:
+                l[x],l[x+1] = l[x+1],l[x]
+            n-=1
+    return l
+
+l = list(map(int,input().split()))
+print(bubbleSort(l))
